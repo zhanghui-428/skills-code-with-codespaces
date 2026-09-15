@@ -6,4 +6,18 @@
 
   "remoteUser": "codespace",
   "overrideCommand": false
+ ,
+ // 当容器创建时自动安装的 VS Code 插件
+ "customizations": {
+     "vscode": {
+         "extensions": [
+             "GitHub.copilot"
+         ]
+     },
+     "codespaces": {
+         "openFiles": [
+             "codespace.md"
+         ]
+     }
+ }
 }
